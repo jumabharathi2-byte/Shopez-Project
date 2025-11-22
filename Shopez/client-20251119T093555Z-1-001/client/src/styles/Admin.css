@@ -1,0 +1,96 @@
+/* -------------------------
+   Admin Dashboard Page
+-------------------------- */
+.admin-page {
+  background-color: #30373f;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 15vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding-bottom: 5vh;
+}
+
+/* -------------------------
+   Admin Home Cards
+-------------------------- */
+.admin-home-card {
+  background-color: #181818;
+  width: 70%;
+  margin-left: 15%;
+  padding: 4vh 0;
+  border-radius: 0.8rem;
+  border: 1px solid #4e4c4cc7;
+
+  color: rgb(193, 199, 205);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.admin-home-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Button inside card */
+.admin-home-card button {
+  border: 1.5px solid #f08329df;
+  background-color: transparent;
+  color: #f08329df;
+  padding: 7px 25px;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.admin-home-card button:hover {
+  background-color: #f08329df;
+  color: #fff;
+  transform: scale(1.02);
+}
+
+/* -------------------------
+   Banner Upload Section
+-------------------------- */
+.admin-banner-input {
+  width: 42vw;
+  padding: 4vh 3vw;
+  margin-top: 4vh;
+}
+
+.admin-banner-input h5 {
+  margin-bottom: 20px;
+  color: #e7e7e7;
+}
+
+.admin-banner-input input {
+  width: 100%;
+  background-color: #181818;
+  color: #fff;
+  border: 1px solid #7b7979;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.admin-banner-input input:focus {
+  outline: none;
+  border-color: #f08329df;
+}
+
+/* Submit Button */
+.admin-banner-input button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  border-radius: 0.5rem;
+  border: 1.5px solid #f08329df;
+  background: transparent;
+  color: #f08329df;
+  transition: 0.3s ease;
+}
+
+.admin-banner-input button:hover {
+  background-color: #f08329df;
+  color: white;
+  transform: translateY(-2px);
+}
